@@ -1,0 +1,18 @@
+{
+  "name": "ntsbot",
+  "version": "1.0.0",
+  "description": "Discord bot that automatically plays NTS radio",
+  "main": "ntsbot.js",
+  "scripts": {
+    "start": "node ntsbot.js"
+  },
+  "author": "john c. alvarez",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/voice": "^0.18.0",
+    "discord.js": "^14.16.3",
+    "ffmpeg-static": "^5.2.0",
+    "opusscript": "^0.0.8"
+  }
+}
